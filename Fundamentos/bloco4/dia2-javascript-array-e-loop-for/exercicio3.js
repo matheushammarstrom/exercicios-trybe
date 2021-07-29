@@ -6,7 +6,7 @@ let sum = 0;
 let media =0;
 
 for(let index = 0; index < numbers.length; index ++){
-    sum = sum + numbers[index]
+    sum = sum + numbers[index];
 }
-media = sum / numbers.length
-console.log("A media aritimetica é :", media)
+media = sum / numbers.length;
+console.log("A media aritimetica é :", media);
