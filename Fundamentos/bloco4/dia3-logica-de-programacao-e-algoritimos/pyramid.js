@@ -1,3 +1,5 @@
+//faça uma pirâmide com n asteriscos de base:
+
 let n = 11;
 let line = "";
 let symbol = "*";
