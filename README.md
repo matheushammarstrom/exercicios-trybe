@@ -13,37 +13,37 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Part 1: [Introduction - Unix & Shell](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco1_unix_e_shell)
 
-:ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
+:white_check_mark: 1-3: _Unix & Shell- Part 1_
 
-:ballot_box_with_check: 1-4: _Unix & Shell- Part 2_
+:white_check_mark: 1-4: _Unix & Shell- Part 2_
 
 ### Part 2: [Git & GitHub](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco2)
 
-:ballot_box_with_check: 2-1: _What is it and what is it used for?_
+:white_check_mark: 2-1: _What is it and what is it used for?_
 
-:ballot_box_with_check: 2-2: _Understanding the commands_
+:white_check_mark: 2-2: _Understanding the commands_
 
-:ballot_box_with_check: 2-3: _Internet - Understanding how it works_
+:white_check_mark: 2-3: _Internet - Understanding how it works_
 
 ### Part 3: [Introduction - HTML & CSS](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco3)
 
-:ballot_box_with_check: 3-1: _HTML & CSS - Page structure_
+:white_check_mark: 3-1: _HTML & CSS - Page structure_
 
-:ballot_box_with_check: 3-2: _HTML & CSS - First steps_
+:white_check_mark: 3-2: _HTML & CSS - First steps_
 
-:ballot_box_with_check: 3-3: _HTML & CSS - Selectors and positioning_
+:white_check_mark: 3-3: _HTML & CSS - Selectors and positioning_
 
-:ballot_box_with_check: 3-4: _HTML semantic elements_
+:white_check_mark: 3-4: _HTML semantic elements_
 
-:ballot_box_with_check: 3-5: _Project - Lesson Learned_
+:white_check_mark: 3-5: _Project - Lesson Learned_
   
 ### Part 4: [Introduction - JavaScript and Logic](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco4)
 
-:ballot_box_with_check:  4-1: _JavaScript - First steps_
+:white_check_mark:  4-1: _JavaScript - First steps_
 
-:ballot_box_with_check: 4-2: _JavaScript - Array e loop For_
+:white_check_mark: 4-2: _JavaScript - Array e loop For_
 
-:ballot_box_with_check: 4-3: _JavaScript - Programming Logic and Algorithms_
+:white_check_mark: 4-3: _JavaScript - Programming Logic and Algorithms_
 
 :black_large_square: 4-4: _JavaScript - Objects and functions_
 
@@ -441,41 +441,41 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 1: [Introdução - Unix & Shell](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco1_unix_e_shell)
 
-:ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
+:white_check_mark: 1-3: _Unix & Shell- Part 1_
 
 
-:ballot_box_with_check: 1-4: _Unix & Shell- Part 2_
+:white_check_mark: 1-4: _Unix & Shell- Part 2_
 
 
 ### Bloco 2: [Git & GitHub](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco2)
 
-:ballot_box_with_check: 2-1: _O que é e para que serve?_
+:white_check_mark: 2-1: _O que é e para que serve?_
 
-:ballot_box_with_check: 2-2: _Entendendo os comandos_
+:white_check_mark: 2-2: _Entendendo os comandos_
 
-:ballot_box_with_check: 2-3: _Internet - Entendendo como ela funciona_
+:white_check_mark: 2-3: _Internet - Entendendo como ela funciona_
 
 
 ### Bloco 3: [Introdução - HTML & CSS](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco3)
 
-:ballot_box_with_check: 3-1: _HTML & CSS - Estruturas de página_
+:white_check_mark: 3-1: _HTML & CSS - Estruturas de página_
 
-:ballot_box_with_check: 3-2: _HTML & CSS - Primeiros passos em CSS_
+:white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_
 
-:ballot_box_with_check: 3-3: _HTML & CSS - Seletores e posicionamento_
+:white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_
 
-:ballot_box_with_check: 3-4: _HTML Semântico_
+:white_check_mark: 3-4: _HTML Semântico_
 
-:ballot_box_with_check: 3-5: _Projeto - Lesson Learned_
+:white_check_mark: 3-5: _Projeto - Lesson Learned_
   
 
 ### Bloco 4: [Introdução - JavaScript e Lógica](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco4)
 
-:ballot_box_with_check:  4-1: _JavaScript - Primeiros passos_
+:white_check_mark:  4-1: _JavaScript - Primeiros passos_
 
-:ballot_box_with_check: 4-2: _JavaScript - Array e loop For_
+:white_check_mark: 4-2: _JavaScript - Array e loop For_
 
-:ballot_box_with_check: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+:white_check_mark: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 
 :black_large_square: 4-4: _JavaScript - Objetos e funções_
 
