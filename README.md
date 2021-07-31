@@ -17,7 +17,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :white_check_mark: 1-4: _Unix & Shell- Part 2_
 
-### Part 2: [Git & GitHub](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco2)
+### Part 2: [Git & GitHub](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco2_git_github_internet)
 
 :white_check_mark: 2-1: _What is it and what is it used for?_
 
@@ -25,7 +25,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :white_check_mark: 2-3: _Internet - Understanding how it works_
 
-### Part 3: [Introduction - HTML & CSS](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco3)
+### Part 3: [Introduction - HTML & CSS](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco3_introducao_html_e_css)
 
 :white_check_mark: 3-1: _HTML & CSS - Page structure_
 
@@ -37,7 +37,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :white_check_mark: 3-5: _Project - Lesson Learned_
   
-### Part 4: [Introduction - JavaScript and Logic](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco4)
+### Part 4: [Introduction - JavaScript and Logic](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco4_introducao_javascript_e_logica_de_programacao)
 
 :white_check_mark:  4-1: _JavaScript - First steps_
 
@@ -447,7 +447,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 1-4: _Unix & Shell- Part 2_
 
 
-### Bloco 2: [Git & GitHub](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco2)
+### Bloco 2: [Git & GitHub](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco2_git_github_internet)
 
 :white_check_mark: 2-1: _O que é e para que serve?_
 
@@ -456,7 +456,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 2-3: _Internet - Entendendo como ela funciona_
 
 
-### Bloco 3: [Introdução - HTML & CSS](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco3)
+### Bloco 3: [Introdução - HTML & CSS](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco3_introducao_html_e_css)
 
 :white_check_mark: 3-1: _HTML & CSS - Estruturas de página_
 
@@ -469,7 +469,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 3-5: _Projeto - Lesson Learned_
   
 
-### Bloco 4: [Introdução - JavaScript e Lógica](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco4)
+### Bloco 4: [Introdução - JavaScript e Lógica](https://github.com/matheushammarstrom/exercicios-trybe/tree/master/Fundamentos/bloco4_introducao_javascript_e_logica_de_programacao)
 
 :white_check_mark:  4-1: _JavaScript - Primeiros passos_
 
