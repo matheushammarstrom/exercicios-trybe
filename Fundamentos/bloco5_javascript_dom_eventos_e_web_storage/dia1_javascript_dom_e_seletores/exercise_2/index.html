@@ -66,11 +66,19 @@
         let whiteBlock = document.getElementsByClassName("center-content")[0]
         whiteBlock.style.backgroundColor = "white"
         
-        //Requiste 4
+        //Requisite 4
         document.getElementsByClassName("title")[0].innerText = "Exercício 5.1 - JavaScript"
 
-
-
+        //Requisite 5
+        for(let index = 0; index < document.getElementsByTagName("p").length; index += 1){
+            let paragrafo = document.getElementsByTagName("p")[index]
+            paragrafo.style.textTransform = "uppercase"
+        }
+        //Requiste 6
+        for(let index = 0; index < document.getElementsByTagName("p").length; index += 1){
+            let paragrafo = document.getElementsByTagName("p")[index].innerText
+            console.log(paragrafo)
+        }
 
     </script>
   </body>
