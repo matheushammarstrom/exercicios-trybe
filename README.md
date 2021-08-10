@@ -45,14 +45,14 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :white_check_mark: 4-3: _JavaScript - Programming Logic and Algorithms_
 
-:black_large_square: 4-4: _JavaScript - Objects and functions_
+:white_check_mark: 4-4: _JavaScript - Objects and functions_
 
-:black_large_square: 4-5: _Project - Playground Functions_
+:white_check_mark: 4-5: _Project - Playground Functions_
 
 
 ### Part 5: Javascript: DOM, Events e Web Storage
 
-:black_large_square: 5-1: _JavaScript - DOM and selectors_
+:white_check_mark: 5-1: _JavaScript - DOM and selectors_
 
 :black_large_square: 5-2: _JavaScript - Working with elements_
 
@@ -477,14 +477,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :white_check_mark: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 
-:black_large_square: 4-4: _JavaScript - Objetos e funções_
+:white_check_mark: 4-4: _JavaScript - Objetos e funções_
 
-:black_large_square: 4-5: _Projeto - Playground Functions_
+:white_check_mark: 4-5: _Projeto - Playground Functions_
 
   
 ### Bloco 5: Javascript: DOM, Eventos e Web Storage
 
-:black_large_square: 5-1: _JavaScript - DOM e seletores_
+:white_check_mark: 5-1: _JavaScript - DOM e seletores_
 
 :black_large_square: 5-2: _JavaScript - Trabalhando com elementos_
 
