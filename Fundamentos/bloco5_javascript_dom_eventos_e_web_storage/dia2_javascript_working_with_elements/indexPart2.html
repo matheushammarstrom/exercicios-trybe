@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        // Requisite1
+        let title = document.createElement('h1');
+        title.innerText = 'Exercício 5.2 - JavaScript DOM';
+        document.body.appendChild(title);
+        // Requisite2
+        let mainContainer = document.createElement('main');
+        mainContainer.className = 'main-content';
+        document.body.appendChild(mainContainer);
+        // Requisite3
+        let centerSection = document.createElement('section');
+        centerSection.className = 'center-content';
+        document.querySelector('.main-content').appendChild(centerSection);
+        // Requisite4
+        let text = document.createElement('p');
+        text.innerText = 'Um texto qualquer';
+        document.querySelector('.center-content').appendChild(text);
+        // Requisite5
+        let leftSection = document.createElement('section');
+        leftSection.className = 'left-content';
+        mainContainer.appendChild(leftSection);
+        // Requisite6
+        let rightSection = document.createElement('section');
+        rightSection.className = 'right-content';
+        mainContainer.appendChild(rightSection);
+        // Requisite7
+        let image = document.createElement('img');
+        image.className = 'small-image';
+        image.src = "https://picsum.photos/200";
+        leftSection.appendChild(image);
+        // Requisite8
+        let list = document.createElement('ul');
+        rightSection.appendChild(list);
+        for(let index = 1; index <= 10; index +=1){
+          let numberList = document.createElement('li');
+          numberList.innerText = index;
+          list.appendChild(numberList);
+        }
+        // Requisite9
+        for(let index = 0; index < 3; index +=1){
+          let h3Tags = document.createElement('h3');
+          h3Tags.innerText = 'Olá';
+          mainContainer.appendChild(h3Tags);
+        }
+
+        //Adicione a classe title na tag h1 criada;
+        title.className = 'title'
+
+    
+    </script>
+  </body>
+</html>
