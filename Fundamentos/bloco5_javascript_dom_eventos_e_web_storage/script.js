@@ -28,8 +28,16 @@ function createDaysOfTheWeek() {
         }
         if((dezDaysList[index]- 4) % 7 === 0){
             dayItem.classList.add('friday')
-        }
-      }
-  }
+        };
+      };
+  };
 
   addDaysOfTheWeek();
+// Exercise 2 - Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados"
+  function selectHolidays(feriados){
+    buttonHoliday = document.createElement('button');
+    buttonHoliday.id = 'btn-holiday'
+    buttonHoliday.innerText = feriados
+    document.querySelector('.buttons-container').appendChild(buttonHoliday);
+  }
+  selectHolidays('Feriados');
