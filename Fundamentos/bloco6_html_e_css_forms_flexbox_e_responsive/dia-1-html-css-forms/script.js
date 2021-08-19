@@ -8,7 +8,7 @@ for(let index =0; index < states.length; index += 1){
     stateList.appendChild(newState)
 }
 
-// function getForms(event){
-//     event.preventDefault();
-// }
-// button.addEventListener('click', getForms)
+function getForms(event){
+    event.preventDefault();
+}
+button.addEventListener('click', getForms)
