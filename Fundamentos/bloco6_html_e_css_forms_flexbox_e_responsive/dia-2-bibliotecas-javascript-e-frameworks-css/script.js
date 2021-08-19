@@ -2,6 +2,11 @@ var states =['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Espír
 const button = document.querySelector('#submit')
 var stateList = document.querySelector('.state-list')
 
+$(document).ready(function(){
+    $('select').formSelect();
+  });
+        
+
 for(let index =0; index < states.length; index += 1){
     let newState = document.createElement('option')
     newState.innerHTML = states[index]
@@ -11,4 +16,4 @@ for(let index =0; index < states.length; index += 1){
 function getForms(event){
     event.preventDefault();
 }
-button.addEventListener('click', getForms)
+button.addEventListener('click', getForms) 

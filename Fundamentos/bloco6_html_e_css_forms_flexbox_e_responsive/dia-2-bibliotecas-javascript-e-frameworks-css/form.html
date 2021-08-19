@@ -1,60 +1,86 @@
 <!DOCTYPE html>
-<html lang='pt-BR'>
+<html lang='pt-BR'> 
 <head>
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' href='styles.css'>
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Formulário</title>
 </head>
 <body>
-    <header>
+    <header class= 'center-align'>
         <h1>Formulário</h1>
     </header>
-    <form>
-        <fieldset>
+    <form class='container'>
+        <div class='container'>
+            <div class="input-field col s6">
             <label for='name'>Nome completo</label>
-            <input type='text' id='name' maxlength='40'required>
-
-            <label for='email'>Email</label>
-            <input type='text' id='email' maxlength='50'required>
-
-            <label for='cpf'>CPF</label>
-            <input type='text' id='cpf' maxlength='11'required>
-
-            <label for='adress'>Endereco</label>
-            <input type='text' id='endereco' maxlength='200'required>
-
-            <label for="city">City</label>
-            <input type="text" id='city' maxlength='28'required>
-
-            <label for='state'>Estado</label>
-            <select type='text' id='state' class='state-list'required>
-
-            <input type='radio' id='house' name='house-type'required>
-            <label for='house'>Casa</label>
-            <input type='radio' id='appartment' name='house-type'required>
-            <label for='appartment'>Apartamento</label>
-        </fieldset>
-        <fieldset>
-            <label for='curriculum'>Resumo do currículo</label>
-            <textarea type='text' maxlength='1000' id='curriculum'required></textarea>
-
-            <label for='responsibility'>Cargo</label>  
-            <input type='text' maxlength='40' id='responsibility'required>
-
-            <label for='responsibility-description'>Descricao do cargo</label>  
-            <input type='text' maxlength='500' id='responsibility-description'required></textarea>
-
-            <label for="date">Data de inicio</label>
-            <input type="text" id='date' required>
-
-        </fieldset> 
-        <input type='submit'id ='submit'>
-        </form>
+                <input type='text' id='name' maxlength='40'required class='validate'>
+            </div>
+            <div class="input-field col s6">
+                <label for='email'>Email</label>
+                <input type='text' id='email' maxlength='50'required class='validate'>
+            </div>
+            <div class="input-field col s6">
+                <label for='cpf'>CPF</label>
+                <input type='text' id='cpf' maxlength='11'required class='validate'>
+            </div>
+            <div class ="input-field col s6">
+                <label for='adress'>Endereco</label>
+                <input type='text' id='endereco' maxlength='200'required class='validate'>
+            </div>
+            <div class ="input-field col s6">
+                <label for="city">City</label>
+                <input type="text" id='city' maxlength='28'required class='validate'>
+            </div>
+            <div class='.input-field col s12'>
+                <select class='state-list'>
+                    <option value='' disabled selected>Estado</option>
+                </select>
+                <label>Estado</label>
+            </div>
+            <div class='.input-field'>
+                <p> Tipo de moradia
+                <label>
+                    <input type='radio' id='house' name='house-type'required class='with-gap'>
+                    <span>Casa</span>
+                </label>
+                <label for='appartment'>
+                    <input type='radio' id='appartment' name='house-type'required class='with-gap'>
+                    <span>Apartamento</span>
+                </label>
+                </p>
+            </div>
+        </div>
+        <div class='container'>
+            <div class="input-field col s12">
+                <textarea type='text' maxlength='1000' id='curriculum'required class="materialize-textarea validate"></textarea>
+                <label for='curriculum'>Resumo do currículo</label>
+            </div>
+            <div class="input-field col s12">
+                <label for='responsibility'>Cargo</label>  
+                <input type='text' maxlength='40' id='responsibility'required class='validate'>
+            </div>
+            <div class="input-field col s12">
+                <label for='responsibility-description'>Descricao do cargo</label>  
+                <input type='text' maxlength='500' id='responsibility-description'required class='validate'></textarea>
+            </div>
+            <div class="input-field col s12"> 
+                <label for="date">Data de inicio</label>
+                <input type="text" id='date' required class='validate'>
+            </div>
+            <button type='submit'id ='submit' class='btn waves-effect waves-light'>Enviar
+                <i class="material-icons right">send</i>
+            </button>
+        </div> 
+    </form>
 
 
 
     <script src='script.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
