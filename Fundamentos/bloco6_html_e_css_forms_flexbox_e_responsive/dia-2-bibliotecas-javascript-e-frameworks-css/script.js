@@ -3,7 +3,10 @@ const button = document.querySelector('#submit')
 var stateList = document.querySelector('.state-list')
 document.getElementById('date').DatePickerX.init({
     mondayFirst: true,
-    maxDate    : Date.now()
+    maxDate : Date.now(),
+    format : 'dd/mm/yyyy',
+    weekDayLabels : ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'],
+    shortMonthLabels : ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
 });
 
 $(document).ready(function(){
