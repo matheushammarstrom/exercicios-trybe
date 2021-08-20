@@ -15,27 +15,27 @@
     <header class= 'center-align'>
         <h1>Formulário</h1>
     </header>
-    <form class='container'>
+    <form class='container js-form'>
         <div class='container'>
             <div class="input-field col s6">
             <label for='name'>Nome completo</label>
-                <input type='text' id='name' maxlength='40'required class='validate'>
+                <input type='text' id='name' maxlength='40' class='validate' data-validate-field="name">
             </div>
             <div class="input-field col s6">
                 <label for='email'>Email</label>
-                <input type='text' id='email' maxlength='50'required class='validate'>
+                <input type='text' id='email' maxlength='50'required class='validate' data-validate-field="email">
             </div>
             <div class="input-field col s6">
                 <label for='cpf'>CPF</label>
-                <input type='text' id='cpf' maxlength='11'required class='validate'>
+                <input type='text' id='cpf' maxlength='11'required class='validate' data-validate-field="cpf">
             </div>
             <div class ="input-field col s6">
                 <label for='adress'>Endereco</label>
-                <input type='text' id='endereco' maxlength='200'required class='validate'>
+                <input type='text' id='endereco' maxlength='200'required class='validate' data-validate-field="adress">
             </div>
             <div class ="input-field col s6">
                 <label for="city">City</label>
-                <input type="text" id='city' maxlength='28'required class='validate'>
+                <input type="text" id='city' maxlength='28'required class='validate' data-validate-field="city">
             </div>
             <div class='.input-field col s12'>
                 <select class='state-list'>
@@ -58,20 +58,20 @@
         </div>
         <div class='container'>
             <div class="input-field col s12">
-                <textarea type='text' maxlength='1000' id='curriculum'required class="materialize-textarea validate"></textarea>
+                <textarea type='text' maxlength='1000' id='curriculum'required class="materialize-textarea validate" data-validate-field="text"></textarea>
                 <label for='curriculum'>Resumo do currículo</label>
             </div>
             <div class="input-field col s12">
                 <label for='responsibility'>Cargo</label>  
-                <input type='text' maxlength='40' id='responsibility'required class='validate'>
+                <input type='text' maxlength='40' id='responsibility'required class='validate' data-validate-field="responsibility">
             </div>
             <div class="input-field col s12">
                 <label for='responsibility-description'>Descricao do cargo</label>  
-                <input type='text' maxlength='500' id='responsibility-description'required class='validate'></textarea>
+                <input type='text' maxlength='500' id='responsibility-description'required class='validate' data-validate-field="description"></textarea>
             </div>
             <div class="input-field col s12"> 
                 <label for="date">Data de inicio</label>
-                <input type="text" id='date' required class='validate'>
+                <input type="text" id='date' required class='validate' data-validate-field="date">
             </div>
             <button type='submit'id ='submit' class='btn waves-effect waves-light'>Enviar
                 <i class="material-icons right">send</i>
@@ -82,6 +82,7 @@
 
 
     <script src='DatePickerX.js'></script>
+    <script src='node_modules/just-validate/dist/js/just-validate.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src='script.js'></script>
 </body>
