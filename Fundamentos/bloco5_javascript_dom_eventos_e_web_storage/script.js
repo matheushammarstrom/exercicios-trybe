@@ -34,10 +34,23 @@ function createDaysOfTheWeek() {
 
   addDaysOfTheWeek();
 // Exercise 2 - Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados"
-  function selectHolidays(feriados){
+  function buttonHolidays(feriados){
     buttonHoliday = document.createElement('button');
     buttonHoliday.id = 'btn-holiday'
     buttonHoliday.innerText = feriados
     document.querySelector('.buttons-container').appendChild(buttonHoliday);
   }
-  selectHolidays('Feriados');
+  buttonHolidays('Feriados');
+
+
+button = document.querySelector('#btn-holiday')
+button.addEventListener('click', selectDays)
+
+function displayHolidayDaysDays(){
+    button = document.querySelector('#btn-holiday')
+    button.addEventListener('click', selectDays)
+    for(let index = 0; index < 33; index +=1){
+        days = document.querySelectorAll('.holiday')[index]
+        days.style.backgroundColor = 'green'
+    }
+}    
