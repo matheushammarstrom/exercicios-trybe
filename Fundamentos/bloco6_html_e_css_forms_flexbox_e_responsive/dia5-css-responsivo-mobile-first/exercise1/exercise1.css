@@ -1,5 +1,5 @@
 body {
-    font-size: x-large;
+    font-size: xx-large;
     margin: 0px 30px;
 }
 h1 {
@@ -16,4 +16,25 @@ img {
 
 figure {
     margin: 0;
+}
+@media screen and (min-width:600px) {
+    body{
+        background-color: aqua;
+        font-size: x-large;
+        margin: 50px 50px;
+    }
+    h1{
+        font-size: xxx-large;
+    }
+    main{
+        display: flex;
+        width: 1000px;
+        flex-wrap: wrap;
+    }
+    h2{
+        position: absolute;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
