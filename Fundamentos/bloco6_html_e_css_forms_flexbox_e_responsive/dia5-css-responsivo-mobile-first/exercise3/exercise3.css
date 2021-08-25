@@ -23,10 +23,10 @@
     margin: 0;
     padding: 0;
   }
-  
+ 
   #navigation ul li {
     list-style-type: none;
-    display: inline;
+    display: inline; 
   }
   
   #navigation li a {
@@ -36,7 +36,7 @@
     color: #fff;
     text-decoration: none;
     border-right: 1px solid #fff;
-  }
+} 
   
   #navigation li a:hover {
     background: #383;
@@ -85,9 +85,36 @@
         visibility: hidden;
       }
       #content{
-          width: 100%;
+        width: 100%;
       }
       #aside{
-          float: left;
+        float: left;
       }
+  }
+  @media screen and (max-width: 600px) {
+      #aside{
+        display: none;
+      }
+      body{
+        padding: 0 0;
+      }
+      img{
+          max-width: 100%;
+      }
+      #content{
+          width: 100%;
+      }
+      #header{
+          position: fixed;
+          width: 100%;
+      }
+      #navigation{
+          display: flex;
+          flex-direction: column;
+          margin-top: 100px;
+      }
+      #navigation li a{
+          float: none;
+      }
+
   }
