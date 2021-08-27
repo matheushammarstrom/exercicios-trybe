@@ -1,0 +1,64 @@
+body {
+    font-size: xx-large;
+    margin: 0px 30px;
+}
+h1 {
+    font-size: x-large;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    margin-top: 15%;
+}
+
+figure {
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+@media screen and (min-width:600px) {
+    body{
+        background-color: aqua;
+        font-size: x-large;
+        margin: 50px 50px;
+    }
+    h1{
+        font-size: xxx-large;
+    }
+    main{
+        height: 1800px;
+        /* justify-content: center;
+        align-content: center; */
+        width: 100%;
+    }
+    h2{
+        position: absolute;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    figure{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:1000px){
+    body{
+        background-color: green;
+        font-size: x-large;
+        margin: 5% 5%;
+    }
+    section{
+        background-color: aqua;
+        max-width: 70%;
+    }
+}
