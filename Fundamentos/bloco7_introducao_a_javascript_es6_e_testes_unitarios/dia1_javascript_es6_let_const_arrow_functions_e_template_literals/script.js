@@ -13,14 +13,13 @@ const test =  (escopo)=> {
 
   test(true);
 
-  //Exercise 2
+  //Exercise 1.2
   const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-  oddsAndEvens.sort((a,b)=>{
-      return a - b;
-  })
-
-  // Seu código aqui.
-
+  oddsAndEvens.sort((a,b)=> a - b)
   console.log(oddsAndEvens); // 
 
-
+//Exercise 2.1
+const fact = (n) => {
+    n*(n-1)
+}
+console.log(fact(2))
