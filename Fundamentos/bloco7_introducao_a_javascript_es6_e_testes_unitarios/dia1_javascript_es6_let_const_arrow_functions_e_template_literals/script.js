@@ -1,3 +1,4 @@
+//Exercise 1
 const test =  (escopo)=> {
     if (escopo === true) {
       var ifScope = `Não devo ser utilizada fora do meu escopo (if)`;
@@ -11,3 +12,15 @@ const test =  (escopo)=> {
   }
 
   test(true);
+
+  //Exercise 2
+  const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+  oddsAndEvens.sort((a,b)=>{
+      return a - b;
+  })
+
+  // Seu código aqui.
+
+  console.log(oddsAndEvens); // 
+
+
