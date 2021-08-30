@@ -20,6 +20,27 @@ const test =  (escopo)=> {
 
 //Exercise 2.1
 const fact = (n) => {
-    n*(n-1)
+    if(n>0){
+        return fact(n-1)*n;
+    } 
+    return 1;
 }
-console.log(fact(2))
+
+//Exercise 2.1 Recursive
+const fact =(a)=>(a >0) ?fact(a-1)*a:1
+
+//Exercise 2.2
+longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu'
+const longestWord =(sentence)=>{
+    let words = sentence.split(' ')
+    let biggestWord = ''
+    for(let index =0; index < words.length; index +=1){
+      let testWord = words[index]
+      // if (testWord.length > biggestWord.length){
+      //   biggestWord = testWord
+      // }
+      (testWord.length > biggestWord.length) ? biggestWord = testWord:biggestWord=biggestWord
+    }
+    return biggestWord
+  }
+console.log(longestWord('oi tudo bem'));
