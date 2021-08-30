@@ -38,3 +38,7 @@
   //Exercise 2.5
 
   const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
+
+  //Exercise 2.6
+
+  const totalStudents = ()=> allLessons.lesson1.numeroEstudantes + allLessons.lesson2.numeroEstudantes + allLessons.lesson3.numeroEstudantes;
