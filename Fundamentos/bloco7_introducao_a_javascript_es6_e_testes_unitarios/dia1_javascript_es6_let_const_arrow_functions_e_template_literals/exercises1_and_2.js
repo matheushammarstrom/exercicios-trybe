@@ -30,17 +30,18 @@ const fact = (n) => {
 const fact =(a)=>(a >0) ?fact(a-1)*a:1
 
 //Exercise 2.2
-longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu'
 const longestWord =(sentence)=>{
     let words = sentence.split(' ')
     let biggestWord = ''
     for(let index =0; index < words.length; index +=1){
       let testWord = words[index]
-      // if (testWord.length > biggestWord.length){
-      //   biggestWord = testWord
-      // }
-      (testWord.length > biggestWord.length) ? biggestWord = testWord:biggestWord=biggestWord
+      if (testWord.length > biggestWord.length){
+        biggestWord = testWord
+      }
+      // (testWord.length > biggestWord.length) ? biggestWord = testWord:biggestWord=biggestWord
     }
     return biggestWord
   }
-console.log(longestWord('oi tudo bem'));
+
+//Exercise 2.2 one line
+const longestWord = (text) => text.split(' ').sort((textA, textB)=> textB.length - textA.length)[0]
