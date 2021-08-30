@@ -1,5 +1,5 @@
 //Exercise 2.1
-const lesson1 = {
+  const lesson1 = {
     materia: 'Matemática',
     numeroEstudantes: 20,
     professor: 'Maria Clara',
@@ -22,3 +22,19 @@ const lesson1 = {
     object[key] = value
   }
   addShift(lesson2, 'turno', 'manha')
+
+  //Exercise 2.2
+
+  const showKeys = (object)=> console.log(Object.keys(object))
+
+  //Exercise 2.3
+
+  const lengthObject = (object) => console.log(Object.keys(object).length)
+
+  //Exercise 2.4
+
+  const showValues = (object) => console.log(Object.values(object))
+
+  //Exercise 2.5
+
+  const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
