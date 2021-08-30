@@ -42,3 +42,11 @@
   //Exercise 2.6
 
   const totalStudents = ()=> allLessons.lesson1.numeroEstudantes + allLessons.lesson2.numeroEstudantes + allLessons.lesson3.numeroEstudantes;
+
+  //Exercise 2.7
+
+  const findValue = (object, position) => Object.values(object)[position]
+
+  //Exercise 2.8
+
+  const verifyPair = (object, key, value) => (object[key] === value)? true: false
