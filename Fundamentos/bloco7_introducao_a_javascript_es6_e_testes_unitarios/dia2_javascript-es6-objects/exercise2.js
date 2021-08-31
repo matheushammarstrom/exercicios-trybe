@@ -55,3 +55,15 @@
   //Exercise 2.8
 
   const verifyPair = (object, key, value) => (object[key] === value)? true: false
+
+  //Exercise bonus.1
+
+  const mathStudents = ()=>{
+      let students = 0;
+      for(let index in allLessons){
+          if(allLessons[index]['materia'] === 'Matemática'){
+            students += allLessons[index]['numeroEstudantes']
+          }
+      }
+      console.log(students)
+  }
