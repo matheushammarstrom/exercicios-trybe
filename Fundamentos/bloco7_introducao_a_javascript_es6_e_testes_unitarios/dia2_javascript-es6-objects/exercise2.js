@@ -41,8 +41,13 @@
 
   //Exercise 2.6
 
-  const totalStudents = ()=> allLessons.lesson1.numeroEstudantes + allLessons.lesson2.numeroEstudantes + allLessons.lesson3.numeroEstudantes;
-
+  const totalStudents = ()=> {
+      let soma =0
+      for(let index in allLessons){
+          soma += Object.values(allLessons[index])[1];
+      }
+      console.log(soma)
+  }
   //Exercise 2.7
 
   const findValue = (object, position) => Object.values(object)[position]
