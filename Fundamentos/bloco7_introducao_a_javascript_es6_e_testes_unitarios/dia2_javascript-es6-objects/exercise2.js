@@ -1,69 +1,90 @@
 //Exercise 2.1
-  const lesson1 = {
-    materia: 'Matemática',
-    numeroEstudantes: 20,
-    professor: 'Maria Clara',
-    turno: 'manhã',
-  };
-  
-  const lesson2 = {
-    materia: 'História',
-    numeroEstudantes: 20,
-    professor: 'Carlos',
-  };
-  
-  const lesson3 = {
-    materia: 'Matemática',
-    numeroEstudantes: 10,
-    professor: 'Maria Clara',
-    turno: 'noite',
-  };
-  const addShift = (object, key, value) =>{
-    object[key] = value
+const lesson1 = {
+  materia: "Matemática",
+  numeroEstudantes: 20,
+  professor: "Maria Clara",
+  turno: "manhã",
+};
+
+const lesson2 = {
+  materia: "História",
+  numeroEstudantes: 20,
+  professor: "Carlos",
+};
+
+const lesson3 = {
+  materia: "Matemática",
+  numeroEstudantes: 10,
+  professor: "Maria Clara",
+  turno: "noite",
+};
+const addShift = (object, key, value) => {
+  object[key] = value;
+};
+addShift(lesson2, "turno", "manha");
+
+//Exercise 2.2
+
+const showKeys = (object) => console.log(Object.keys(object));
+
+//Exercise 2.3
+
+const lengthObject = (object) => console.log(Object.keys(object).length);
+
+//Exercise 2.4
+
+const showValues = (object) => console.log(Object.values(object));
+
+//Exercise 2.5
+
+const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
+
+//Exercise 2.6
+
+const totalStudents = () => {
+  let soma = 0;
+  for (let index in allLessons) {
+    soma += Object.values(allLessons[index])[1];
   }
-  addShift(lesson2, 'turno', 'manha')
+  console.log(soma);
+};
+//Exercise 2.7
 
-  //Exercise 2.2
+const findValue = (object, position) => Object.values(object)[position];
 
-  const showKeys = (object)=> console.log(Object.keys(object))
+//Exercise 2.8
 
-  //Exercise 2.3
+const verifyPair = (object, key, value) =>
+  object[key] === value ? true : false;
 
-  const lengthObject = (object) => console.log(Object.keys(object).length)
+//Exercise bonus.1
 
-  //Exercise 2.4
-
-  const showValues = (object) => console.log(Object.values(object))
-
-  //Exercise 2.5
-
-  const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
-
-  //Exercise 2.6
-
-  const totalStudents = ()=> {
-      let soma =0
-      for(let index in allLessons){
-          soma += Object.values(allLessons[index])[1];
-      }
-      console.log(soma)
+const mathStudents = () => {
+  let students = 0;
+  for (let index in allLessons) {
+    if (allLessons[index]["materia"] === "Matemática") {
+      students += allLessons[index]["numeroEstudantes"];
+    }
   }
-  //Exercise 2.7
+  console.log(students);
+};
 
-  const findValue = (object, position) => Object.values(object)[position]
+//Exercise bonus.2
 
-  //Exercise 2.8
-
-  const verifyPair = (object, key, value) => (object[key] === value)? true: false
-
-  //Exercise bonus.1
-
-  const mathStudents = ()=>{
-      let students = 0;
-      for(let index in allLessons){
-          if(allLessons[index]['materia'] === 'Matemática'){
-            students += allLessons[index]['numeroEstudantes']
-          }
-      }
-      console.log(students)
+const createReport = (object, teacher) => {
+  // let classes = [];
+  // let students = 0;
+  let report = {
+    professor: teacher,
+    aulas: [],
+    estudantes: 0,
+  };
+  for (let index in allLessons) {
+    if (allLessons[index]["professor"] === teacher) {
+      report.aulas.push(allLessons[index]["materia"]);
+      report.estudantes += allLessons[index]["numeroEstudantes"];
+    }
   }
+  return report;
+};
+console.log(createReport(allLessons, "Maria Clara"));
