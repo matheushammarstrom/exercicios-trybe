@@ -19,8 +19,8 @@ assert.deepStrictEqual(actual1, [1, 2, 4])
 const actual2 = myRemoveWithoutCopy([1, 2, 3, 4], 3)
 assert.notDeepStrictEqual(actual2, [1, 2, 3, 4])
 
-const actual3 = myRemoveWithoutCopy([1, 2, 3, 4, 5])
-assert.deepStrictEqual(actual3, [1, 2, 3, 4, 5])
+const actual3 = myRemoveWithoutCopy([1, 2, 3, 4, 5], 3)
+assert.notDeepStrictEqual(actual3, [1, 2, 3, 4, 5])
 
 const actual4 = myRemoveWithoutCopy([1, 2, 3, 4], 5)
 assert.deepStrictEqual(actual4, [1, 2, 3, 4])
