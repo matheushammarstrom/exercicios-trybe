@@ -6,7 +6,7 @@ const getMarsTemperature = () => {
 };
 const sendMarsTemperature = () =>{
   const temp = getMarsTemperature();
-  setTimeout(()=> console.log(`Mars temperature is: ${temp} degree Celsius`),messageDelay)
+  setTimeout(()=> console.log(`Mars temperature is: ${temp} degree Celsius`),messageDelay())
 }
 
 // crie a função sendMarsTemperature abaixo
