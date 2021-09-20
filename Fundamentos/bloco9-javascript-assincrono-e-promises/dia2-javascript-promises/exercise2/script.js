@@ -6,9 +6,13 @@ const getNumbers = new Promise((resolve, reject) =>{
   }
   const totalSum = numbersArray.reduce(((acc, curr)=> acc + curr),0);
   if(totalSum < 8000){
-    return resolve()
+    return resolve(totalSum)
   }
   reject()
 })
-.then(()=>console.log('Promise Resolvida'))
+.then((sum)=>{
+  const array = [2, 3, 5, 10];
+  const newArray = array.map((element) => sum/element)
+  console.log(newArray)
+})
 .catch(()=> console.log('Promise rejeitada'))
