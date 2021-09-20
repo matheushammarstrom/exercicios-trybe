@@ -13,6 +13,7 @@ const getNumbers = new Promise((resolve, reject) =>{
 .then((sum)=>{
   const array = [2, 3, 5, 10];
   const newArray = array.map((element) => sum/element)
-  console.log(newArray)
+  return newArray
 })
-.catch(()=> console.log('Promise rejeitada'))
+.then((array) => console.log(array.reduce((acc, curr) => acc + curr,0)))
+.catch(()=> console.log('É mais de oito mil! Essa promise deve estar quebrada!'))
