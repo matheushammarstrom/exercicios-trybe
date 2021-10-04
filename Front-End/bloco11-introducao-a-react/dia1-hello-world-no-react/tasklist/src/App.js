@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 const Task = (value) => {
@@ -6,12 +5,13 @@ const Task = (value) => {
     <li>{value}</li>
   );
 }
+const tasks = ['limpar o quarto', 'estudar', 'lavar o quintal' ]
 
 class App extends React.Component {
   render(){
   return (
     <div className="App">
-      <ul>{Task('oi')}</ul>
+      <ul>{tasks.map((el) => Task(el))}</ul>
     </div>
   )
 }
